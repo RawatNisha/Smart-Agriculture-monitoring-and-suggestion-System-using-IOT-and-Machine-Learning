@@ -1,0 +1,34 @@
+footer {
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	text-align: center;
+	background: #130f40;
+	color: white;
+	padding: 5px;
+}
+footer .authors {
+	position: fixed;
+	bottom: 35px;
+	right: 0;
+	background: aqua;
+}
+@media screen and (max-width: 768px) {
+	footer .authors {
+		display: none;
+	}
+}
+footer .authors .author {
+	display: flex;
+	justify-content: space-between;
+	margin: 10px;
+	color: #130f40;
+}
+
+footer .authors .author .name {
+	font-weight: bolder;
+	margin: 0px 10px;
+}
+footer .authors .author .roll_no {
+	margin: 0px 10px;
+}

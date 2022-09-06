@@ -1,0 +1,17 @@
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: #c7ecee;
+    flex-wrap: wrap;
+}
+
+header h1{
+    color: #130f40;
+}
+
+header nav a{
+    padding: 10px;
+    margin: 0 20px;
+}
