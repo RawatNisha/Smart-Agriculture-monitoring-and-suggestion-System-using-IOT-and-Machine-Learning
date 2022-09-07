@@ -14,7 +14,8 @@
 	text-decoration: none;
     font-family: 'Ubuntu Condensed', sans-serif, 'Times New Roman', Times, serif;
 	font-family: 'Architects Daughter', cursive;
-
+	word-wrap: break-word;
+	transition: all 0.2s;
 }
 
 body {

@@ -16,6 +16,12 @@ def visualization():
 @app.route('/analytics')
 def analytics():
     return render_template('analytics.html')
+@app.route('/detection')
+def detection():
+    return render_template('crop_disease_prediction.html')
+@app.route('/prediction')
+def prediction():
+    return render_template('crop_prediction.html')
 
 
 
