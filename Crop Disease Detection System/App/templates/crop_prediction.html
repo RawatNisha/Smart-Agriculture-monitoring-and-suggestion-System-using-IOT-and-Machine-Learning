@@ -1,6 +1,7 @@
 {% include '/components/default_start.html' %} 
-{% include '/components/header.html' %} prediction
+{% include '/components/header.html' %}
 <div class="crop_prediction">
+    <h1>Crop Detection System</h1>
 	<section id="input_container">
 		<form onsubmit="SubmitFile(event)">
             <h1>Please Upload Your Image Here </h1>
@@ -19,22 +20,28 @@
 		</form>
 	</section>
 
-	<section id="output_container">
-		<div class="result_container">
-			<div class="image">
-				<img
-					id="image"
-					src="{{url_for('static',filename='images/data/crop_image1.jpg')}}"
-					alt=""
-				/>
-			</div>
-			<div class="description">
-				<h1>Result</h1>
-				<div id="detection_result"></div>
-			</div>
-		</div>
-	</section>
+	<div id="output_container">
+		<section>
+            <div class="image">
+                <img id="image" src="{{url_for('static',filename='images/data/crop_image1.jpg')}}" alt="">
+            </div>
+            <div class="output">
+                <h1>Output</h1>
+                <div id="detectionresult">
+                    <div id="waitingSpinner">
+                        <div class="spinner"></div>
+                        <p style="margin: 10px 0 0 0;">We are Working</p>
+                        <p>please wait ....</p>
+                    </div>
+                    <!-- <h2>Crop and their prediction values</h2>
+                        <ul>
+                            <li><span class="red">Cotton</span> -- >  <b>50%</b></li>
+                        </ul> -->
+                </div>
+            </div>
+        </section>
+	</div>
 </div>
-
+{% include '/components/loader.html' %} 
 {% include '/components/footer.html' %} 
 {% include '/components/default_end.html' %}

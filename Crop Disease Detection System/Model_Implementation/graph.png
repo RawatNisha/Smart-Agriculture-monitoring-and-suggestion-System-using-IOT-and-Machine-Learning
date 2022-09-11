@@ -1,0 +1,35 @@
+digraph G {
+concentrate=True;
+dpi=96;
+rankdir=TB;
+node [shape=record];
+2561437430592 [label="conv2d_input: InputLayer|float32\n|{input:|output:}|{{[(None, 160, 160, 3)]}|{[(None, 160, 160, 3)]}}"];
+2561433151712 [label="conv2d: Conv2D|float32\n|{input:|output:}|{{(None, 160, 160, 3)}|{(None, 158, 158, 256)}}"];
+2561436331024 [label="max_pooling2d: MaxPooling2D|float32\n|{input:|output:}|{{(None, 158, 158, 256)}|{(None, 79, 79, 256)}}"];
+2561436330304 [label="conv2d_1: Conv2D|float32\n|{input:|output:}|{{(None, 79, 79, 256)}|{(None, 40, 40, 64)}}"];
+2561435382592 [label="max_pooling2d_1: MaxPooling2D|float32\n|{input:|output:}|{{(None, 40, 40, 64)}|{(None, 20, 20, 64)}}"];
+2561435383456 [label="conv2d_2: Conv2D|float32\n|{input:|output:}|{{(None, 20, 20, 64)}|{(None, 10, 10, 16)}}"];
+2561435384272 [label="max_pooling2d_2: MaxPooling2D|float32\n|{input:|output:}|{{(None, 10, 10, 16)}|{(None, 5, 5, 16)}}"];
+2561435385136 [label="flatten: Flatten|float32\n|{input:|output:}|{{(None, 5, 5, 16)}|{(None, 400)}}"];
+2561435402304 [label="dense: Dense|float32\n|{input:|output:}|{{(None, 400)}|{(None, 512)}}"];
+2561435403024 [label="dense_1: Dense|float32\n|{input:|output:}|{{(None, 512)}|{(None, 256)}}"];
+2561435403792 [label="dropout: Dropout|float32\n|{input:|output:}|{{(None, 256)}|{(None, 256)}}"];
+2561435404272 [label="dense_2: Dense|float32\n|{input:|output:}|{{(None, 256)}|{(None, 256)}}"];
+2561435404896 [label="dropout_1: Dropout|float32\n|{input:|output:}|{{(None, 256)}|{(None, 256)}}"];
+2561435405376 [label="dense_3: Dense|float32\n|{input:|output:}|{{(None, 256)}|{(None, 64)}}"];
+2561435406000 [label="dense_4: Dense|float32\n|{input:|output:}|{{(None, 64)}|{(None, 5)}}"];
+2561437430592 -> 2561433151712;
+2561433151712 -> 2561436331024;
+2561436331024 -> 2561436330304;
+2561436330304 -> 2561435382592;
+2561435382592 -> 2561435383456;
+2561435383456 -> 2561435384272;
+2561435384272 -> 2561435385136;
+2561435385136 -> 2561435402304;
+2561435402304 -> 2561435403024;
+2561435403024 -> 2561435403792;
+2561435403792 -> 2561435404272;
+2561435404272 -> 2561435404896;
+2561435404896 -> 2561435405376;
+2561435405376 -> 2561435406000;
+}

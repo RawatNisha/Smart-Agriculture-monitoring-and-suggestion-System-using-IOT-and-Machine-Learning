@@ -28,3 +28,10 @@ body {
 label,button,a,span,li,td{
 	cursor: pointer;
 }
+
+.red{
+	color: red;
+}
+.gray{
+	color: gray;
+}

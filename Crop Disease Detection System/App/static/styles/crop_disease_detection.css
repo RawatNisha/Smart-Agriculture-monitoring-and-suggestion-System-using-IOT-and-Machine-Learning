@@ -1,0 +1,24 @@
+.crop_disease_prediction{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+    flex-direction: column;
+	min-height: 80vh;
+}
+.crop_disease_prediction #input_container form{
+    min-height: 50vh;
+    width: 700px;
+    background-color: #82ccdd;
+
+}
+
+
+.crop_disease_prediction #input_container form button {
+    font-size: 1.4em;
+    background: blue;
+}
+
+.crop_disease_prediction #input_container form label {
+	padding: 10px 30px;
+    background-color: rgb(80, 255, 159);
+}

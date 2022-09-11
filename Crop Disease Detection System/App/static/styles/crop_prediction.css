@@ -1,14 +1,16 @@
-#output_container {
-	display: none;
-}
-
-.crop_prediction {
+.crop_prediction{
 	display: flex;
 	justify-content: center;
 	align-items: center;
+    flex-direction: column;
 	min-height: 80vh;
 }
-
+.crop_prediction h1{
+    margin: 20px;
+}
+#input_container{
+    display: flex;
+}
 #input_container form{
     min-height: 50vh;
     width: 600px;
@@ -25,15 +27,70 @@
 
 }
 
-#input_container form input,
-#input_container form button {
+#input_container form input
+{
 	display: none;
 }
 
+#input_container form button {
+    margin: 20px;
+    padding: 5px 40px;
+    font-size: 1.3em;
+    background: royalblue;
+    color: white;
+    border-radius: 5px;
+}
 #input_container form label {
 	padding: 10px 20px;
     background-color: coral;
     border-radius: 10px;
     font-weight: bolder;
     font-size: 1.4em;
+}
+
+
+
+#waitingSpinner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+
+#output_container {
+    display: none;
+    justify-content: center;
+    align-items: center;
+    min-height: 70vh;
+    margin-bottom: 50px;
+}
+#output_container img {
+    width: 400px;
+}
+
+#output_container h1 {
+    font-size: 30px;
+    text-align: center;
+    color: blue;
+}
+#output_container section {
+    background-color: #f1f2f6;
+    min-width: 300px;
+    width: 1100px;
+    min-height: 500px;
+    margin: 30px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+
+
+#detectionresult ul{
+    font-weight: bolder;
+    font-size: 1.3em;
+    text-align: center;
 }
