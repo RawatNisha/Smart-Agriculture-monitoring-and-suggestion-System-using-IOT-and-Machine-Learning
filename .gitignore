@@ -2,3 +2,5 @@
 *.c
 *.cpp
 *.php
+*.pickle
+*.h5

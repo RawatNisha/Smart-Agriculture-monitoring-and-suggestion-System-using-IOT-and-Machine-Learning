@@ -1,5 +1,8 @@
 from flask import Flask,render_template,redirect,request,send_from_directory,jsonify
 
+file_name=""
+
+
 app=Flask(__name__)
 @app.route('/')
 def index():
@@ -19,6 +22,17 @@ def detection():
 @app.route('/prediction')
 def prediction():
     return render_template('crop_prediction.html')
+
+
+@app.route('/upload',methods=['POST','GET'])
+def upload():
+    global file_name;
+    if request.method=="POST":
+        print(request.files['file']);
+
+
+
+
 
 
 

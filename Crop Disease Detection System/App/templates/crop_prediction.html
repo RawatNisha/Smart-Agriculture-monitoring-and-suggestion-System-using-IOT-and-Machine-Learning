@@ -1,5 +1,40 @@
-{% include '/components/default_start.html' %}
-    {% include '/components/header.html' %}
-    prediction
-    {% include '/components/footer.html' %}
+{% include '/components/default_start.html' %} 
+{% include '/components/header.html' %} prediction
+<div class="crop_prediction">
+	<section id="input_container">
+		<form onsubmit="SubmitFile(event)">
+            <h1>Please Upload Your Image Here </h1>
+			<label for="file"> <i class="fas fa-upload"></i> <span id="file_name">
+                Select Crop Image
+            </span> </label>
+			<input
+				type="file"
+				name="file"
+				id="file"
+                onchange="updateFileName(event)"
+				placeholder="Upload File Here"
+				required
+			/>
+			<button type="submit">Submit</button>
+		</form>
+	</section>
+
+	<section id="output_container">
+		<div class="result_container">
+			<div class="image">
+				<img
+					id="image"
+					src="{{url_for('static',filename='images/data/crop_image1.jpg')}}"
+					alt=""
+				/>
+			</div>
+			<div class="description">
+				<h1>Result</h1>
+				<div id="detection_result"></div>
+			</div>
+		</div>
+	</section>
+</div>
+
+{% include '/components/footer.html' %} 
 {% include '/components/default_end.html' %}

@@ -1,0 +1,39 @@
+#output_container {
+	display: none;
+}
+
+.crop_prediction {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	min-height: 80vh;
+}
+
+#input_container form{
+    min-height: 50vh;
+    width: 600px;
+    background-color: #95afc0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    opacity: 0.85;
+}
+
+#input_container form h1{
+    margin-bottom: 50px;
+
+}
+
+#input_container form input,
+#input_container form button {
+	display: none;
+}
+
+#input_container form label {
+	padding: 10px 20px;
+    background-color: coral;
+    border-radius: 10px;
+    font-weight: bolder;
+    font-size: 1.4em;
+}
