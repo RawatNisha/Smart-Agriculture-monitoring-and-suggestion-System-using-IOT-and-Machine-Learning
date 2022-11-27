@@ -18,5 +18,5 @@
 <br/>
 <br/>
 <h4>
-Further Updaes is Coming Soon.......🚀🚀🚀⚡⚡⚡
+Further Updates are Coming Soon.......🚀🚀🚀⚡⚡⚡
 </h4>
