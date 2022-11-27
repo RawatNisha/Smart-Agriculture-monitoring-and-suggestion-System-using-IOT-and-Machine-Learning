@@ -11,6 +11,7 @@
                     Select Crop Image
                 </span> </label>
                 <input
+                style="display: none;"
                     type="file"
                     name="file"
                     id="file"
@@ -18,6 +19,20 @@
                     placeholder="Upload File Here"
                     required
                 />
+                <div class="radiobtns">
+                    <h4>Is Crop Type is known</h4>
+                    <input type="radio" name="iscropname" id="iscropname1" value="No" checked>
+                    <label for="iscropname1" onclick="offtheCropnameOption(event)">No</label>
+                    <input type="radio" name="iscropname" id="iscropname2" value="Yes" >
+                    <label for="iscropname2" onclick="ontheCropnameOption(event)">Yes</label>
+                </div>
+                <select style="display: none;" name="cropname" id="cropname">
+                    <option value="Rice">Rice</option>
+                    <option value="Cotton">Cotton</option>
+                    <option value="Sugarcane">Sugarcane</option>
+                    <option value="Maize">Maize</option>
+                    <option value="Wheat">Wheat</option>
+                </select>
                 <button type="submit">Submit</button>
             </form>
         </section>

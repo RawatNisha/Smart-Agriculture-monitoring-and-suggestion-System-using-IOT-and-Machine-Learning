@@ -27,10 +27,6 @@
 
 }
 
-#input_container form input
-{
-	display: none;
-}
 
 #input_container form button {
     margin: 20px;
@@ -40,7 +36,7 @@
     color: white;
     border-radius: 5px;
 }
-#input_container form label {
+#input_container form >label {
 	padding: 10px 20px;
     background-color: coral;
     border-radius: 10px;

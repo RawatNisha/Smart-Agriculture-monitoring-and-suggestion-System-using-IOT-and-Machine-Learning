@@ -61,6 +61,7 @@ def getresult():
         if file_name!="":
             print("File Found")
             trained_model=tensorflow.keras.models.load_model('../Models/Simple_Model_4_colored_For_Crop_Detection.h5')
+            # trained_model=tensorflow.keras.models.load_model('../Models/Simple_Model_5_colored_For_Crop_Detection.h5')
             print(trained_model.summary())
             image_array=cv2.imread(os.path.dirname(__file__)+f"\\static\\images\\data\\{file_name}")
             print(image_array)
@@ -87,7 +88,7 @@ def getresult():
             
             print(class_list[index_])
             response_value="""
-             <h2>Crop and their prediction values</h2>
+            <h2>Crop and their prediction values</h2>
             <ul>
             """
             for key,value in sorted_classes.items():
@@ -95,7 +96,7 @@ def getresult():
                 <li><span class="red">{key}</span> -- >  <b>{value:.3f}%</b></li>
                 """
             response_value=response_value+"""
-             </ul>            
+            </ul>            
             """
             print(response_value)
             return jsonify({

@@ -74,3 +74,12 @@ async function SubmitTheFile(event) {
         loader.style.display = "none";
     // }, 1000);
 }
+
+
+function ontheCropnameOption(event) {
+    document.getElementById('cropname').style.display='flex'
+}
+
+function offtheCropnameOption(event) {
+    document.getElementById('cropname').style.display='none'
+}

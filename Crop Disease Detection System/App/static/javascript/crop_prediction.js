@@ -32,7 +32,8 @@ async function SubmitFile(event) {
         console.log(extention);
         if (
             extention.toLowerCase() == "jpg" ||
-            extention.toLowerCase() == "png"
+            extention.toLowerCase() == "png" ||
+            extention.toLowerCase() == "jpeg"
         ) {
             console.log("extension accepted");
             if (file.size < 10000000) {
