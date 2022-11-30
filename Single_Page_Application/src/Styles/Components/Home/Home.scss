@@ -1,0 +1,32 @@
+#homePageContainer {
+	min-height: 100vh;
+	.homepageHeadings {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		flex-direction: column;
+		h1 {
+			font-size: 80px;
+			font-weight: bold;
+			-webkit-text-stroke: 5px #81ecec;
+		}
+		p {
+			margin-top: -50px;
+			color: white;
+			font-size: 40px;
+			max-width: 500px;
+			text-align: center;
+		}
+	}
+	.landingPageImage {
+		position: relative;
+		min-height: 100vh;
+		background: url("../../../Assets/Images/Backgrounds/Home_background_Desktop.jpg") no-repeat;
+		@media screen and (max-width: 768px) {
+			background: url("../../../Assets/Images/Backgrounds/Home_background_Mobile.jpeg") no-repeat;
+			background-size: cover;
+
+		}
+		background-size: cover;
+	}
+}
