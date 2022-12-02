@@ -1,4 +1,4 @@
-<h1 style="text-align: center;font-size: 50px;">Crop Suggestion System</h1>
+<h1 style="text-align: center;font-size: 50px;" align="center">Crop Suggestion System</h1>
 
 ## This Module will be used to suggest/recommend various type of crops for Final Smart Farming Integrated System
 
@@ -32,4 +32,4 @@
 <hr>
 
 <br/>
-<h4 style="text-align: center;font-size: 30px;color: royalblue;">Further Updates are Coming Soon.......🚀🚀🚀⚡⚡⚡</h4>
+<h4 align="center" style="text-align: center;font-size: 30px;color: royalblue;">Further Updates are Coming Soon.......🚀🚀🚀⚡⚡⚡</h4>

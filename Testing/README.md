@@ -1,4 +1,4 @@
-<h1 style="text-align: center;font-size: 50px;">Main Testing for Smart Farming Integrated System</h1>
+<h1 style="text-align: center;font-size: 50px;" align="center">Main Testing for Smart Farming Integrated System</h1>
 
 ## This Module includes realtime testing approaches for whole system
 
@@ -24,4 +24,4 @@
 <hr>
 
 <br/>
-<h4 style="text-align: center;font-size: 30px;color: royalblue;">Further Updates are Coming Soon.......🚀🚀🚀⚡⚡⚡</h4>
+<h4 style="text-align: center;font-size: 30px;color: royalblue;" align="center">Further Updates are Coming Soon.......🚀🚀🚀⚡⚡⚡</h4>

@@ -1,4 +1,4 @@
-<h1 style="text-align: center;font-size: 50px;">Main Server for Smart Farming Integrated System</h1>
+<h1 style="text-align: center;font-size: 50px;" align="center">Main Server for Smart Farming Integrated System</h1>
 
 ## This Module includes the main server for handling the client-server request-response for user and admin
 
@@ -33,4 +33,4 @@
 </pre>
 <hr>
 <br/>
-<h4 style="text-align: center;font-size: 30px;color: royalblue;">Further Updates are Coming Soon.......🚀🚀🚀⚡⚡⚡</h4>
+<h4 align="center" style="text-align: center;font-size: 30px;color: royalblue;">Further Updates are Coming Soon.......🚀🚀🚀⚡⚡⚡</h4>

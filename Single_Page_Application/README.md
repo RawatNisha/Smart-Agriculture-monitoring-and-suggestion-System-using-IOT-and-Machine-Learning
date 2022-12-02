@@ -1,4 +1,4 @@
-<h1 style="text-align: center;font-size: 50px;">Single Page Application for Farmers</h1>
+<h1 style="text-align: center;font-size: 50px;" align="center">Single Page Application for Farmers</h1>
 
 ## This Module have the actual interface where users can interact with the main server and irrigation system
 
@@ -69,4 +69,4 @@
 
 
 <br/>
-<h4 style="text-align: center;font-size: 30px;color: royalblue;">Further Updates are Coming Soon.......🚀🚀🚀⚡⚡⚡</h4>
+<h4 align="center" style="text-align: center;font-size: 30px;color: royalblue;">Further Updates are Coming Soon.......🚀🚀🚀⚡⚡⚡</h4>

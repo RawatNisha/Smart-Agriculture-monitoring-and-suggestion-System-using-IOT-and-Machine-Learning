@@ -3,7 +3,6 @@
 ## This Project is Being Created Using IOT, Machine Learning, Deep Learning Approach
 
 ### Final Year Major Project
-
 <hr>
 <h3>Created by :</h3>
 <ul>
@@ -15,7 +14,7 @@
 <hr>
 
 ## Tech Stack used
-<table style="text-align: center;">
+<table style="text-align: center;" align="center">
     <tr>
         <th>Server Scripting</th>
         <th>Frontend Scripting</th>
@@ -59,7 +58,7 @@
 <br/>
 
 ## Types of Developer Involved in Project
-<Table style="text-align: center; margin: auto ;">
+<Table style="text-align: center; margin: auto ;" align="center"> 
     <tr>
         <th style="color: red; font-weight: bolder;">Full Stack Developer</th>
         <th style="color: blue;">Data Scientist</th>
@@ -76,7 +75,7 @@
 <hr>
 
 ## Types of Systems to Be developed
-<table>
+<table align="center">
     <tr>
         <th>Crop Detection System</th>
         <th>Crop Disease Detection System</th>
@@ -101,7 +100,7 @@
 <hr>
 
 ## Types of Technologies Involved
-<table>
+<table >
     <tr>
         <th>Data Science</th>
         <th>Machine Learning</th>
@@ -293,7 +292,10 @@ Module-7   📂Testing
 <br/>
 <br/>
 <br/>
-<h4 style="text-align: center;font-size: 40px;color: royalblue;">Further Updates are Coming Soon.......🚀🚀🚀⚡⚡⚡</h4>
+<h4 style="text-align: center;font-size: 40px;color: royalblue;" align="center">Further Updates are Coming Soon.......🚀🚀🚀⚡⚡⚡</h4>
 
-
-<footer style="text-align: center;margin: 20px 0;color: white ;background-color: #2c3e50; padding: 5px;">All Rights are Reserved</footer>
+<br/>
+<hr>
+<br/>
+<br/>
+<footer style="text-align: center;margin: 20px 0;color: white ;background-color: #2c3e50; padding: 5px;" align="center">All Rights are Reserved</footer>

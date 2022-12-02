@@ -1,4 +1,4 @@
-<h1 style="text-align: center;font-size: 50px;">Cloud Management System</h1>
+<h1 style="text-align: center;font-size: 50px;" align="center">Cloud Management System</h1>
 
 ## This Module will be used to manage cloud requirements for Final Smart Farming Integrated System
 
@@ -23,4 +23,4 @@
 
 
 <br/>
-<h4 style="text-align: center;font-size: 30px;color: royalblue;">Further Updates are Coming Soon.......🚀🚀🚀⚡⚡⚡</h4>
+<h4 align="center" style="text-align: center;font-size: 30px;color: royalblue;">Further Updates are Coming Soon.......🚀🚀🚀⚡⚡⚡</h4>

@@ -1,4 +1,4 @@
-<h1 style="text-align: center;font-size: 50px;">Crop Disease Detection System</h1>
+<h1 style="text-align: center;font-size: 50px;" align="center">Crop Disease Detection System</h1>
 
 ## This Module will be used to detect various type of diseases of crops for Final Smart Farming Integrated System
 
@@ -33,4 +33,4 @@
 </pre>
 <hr>
 <br/>
-<h4 style="text-align: center;font-size: 30px;color: royalblue;">Further Updates are Coming Soon.......🚀🚀🚀⚡⚡⚡</h4>
+<h4 align="center" style="text-align: center;font-size: 30px;color: royalblue;">Further Updates are Coming Soon.......🚀🚀🚀⚡⚡⚡</h4>
