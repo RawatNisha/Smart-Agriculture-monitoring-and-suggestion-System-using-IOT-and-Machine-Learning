@@ -1,4 +1,4 @@
-<h1 style="text-align: center;font-size: 50px;">Smart Agriculture Monitoring and Suggestion System using IOT and Machine Learning</h1>
+<h1 style="text-align: center;font-size: 50px;" align="center">Smart Agriculture Monitoring and Suggestion System using IOT and Machine Learning</h1>
 
 ## This Project is Being Created Using IOT, Machine Learning, Deep Learning Approach
 
